@@ -12,7 +12,7 @@ const setUpAndStartServer=async(req,res)=>{
 
 
     app.get("/",(req,res)=>{
-        res.send("ok");
+        res.send("okk");
     })
     app.post("/api/v1/reminder",reminderController.create);
 
